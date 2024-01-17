@@ -5,12 +5,20 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Link
-        href={"/profile-component"}
-        className={buttonVariants({ variant: "default" })}
-      >
-        Profile Compoent
-      </Link>
+      <div className="flex gap-2">
+        <Link
+          href={"/profile-component"}
+          className={buttonVariants({ variant: "default" })}
+        >
+          Profile Compoent
+        </Link>
+        <Link
+          href={"/color-changer"}
+          className={buttonVariants({ variant: "default" })}
+        >
+          Color changer
+        </Link>
+      </div>
     </main>
   );
 }
