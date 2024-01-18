@@ -18,6 +18,13 @@ export default function Home() {
         >
           Color changer
         </Link>
+
+        <Link
+          href={"/git-card"}
+          className={buttonVariants({ variant: "default" })}
+        >
+          Git Card
+        </Link>
       </div>
     </main>
   );
