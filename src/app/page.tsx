@@ -25,6 +25,9 @@ export default function Home() {
         >
           Git Card
         </Link>
+        <Link href={"/otp"} className={buttonVariants({ variant: "default" })}>
+          OTP
+        </Link>
       </div>
     </main>
   );
